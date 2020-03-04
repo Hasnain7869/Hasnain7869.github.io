@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="MyStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="Index.html">Home</a></li>
+    <li><a href="Shopping.html">Products</a></li>
+    <li><a href="Login.html">Sign Up</a></li>
+    <li><a href="Video.html">Upcoming Products</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+  </ul>
+
+<h1>Welcome to UCase</h1>
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<i class="fa fa-instagram" style="font-size:48px;float:right;color:black"></i>
+<i class="fa fa-twitter" style="font-size:48px;float:right;color:black"></i>
+<i class="fa fa-shopping-bag" style="font-size:48px;Float:Right;color:Black"></i>
+<br>
+
+<br>
+<br>
+<p>We Provide The Best Cases For Everyone.</p>
+
+
+  <h2>Our Bestsellers</h2>
+  <p>Scroll To See Our Latest And Greatest Cases.</p>
+
+
+
+
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="slideshow.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Show2.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="slideshow1.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Our Bestsellers</h1>
+
+
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src=iPhone11Pro.jpg>
+    <p>£20.99</p>
+    <!DOCTYPE html>
+<html>
+   <head>
+       <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+   </body>
+</html>
+</div>
+  <div class="grid-item">
+    <img src=iPhone11.jpg>
+    <p>£23.99</p>
+    <!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+      <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+   </body>
+</html>
+</div>
+  <div class="grid-item">
+    <img src=iPhoneXR.jpg>
+    <p>£19.99</p>
+    <!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+      <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+   </body>
+</html>
+  </div>
+  <div class="grid-item">
+    <img src=iPhoneXS.jpg>
+    <p>£24.99</p>
+    <!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+      <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+   </body>
+</html>
+  </div>
+  <div class="grid-item">
+    <img src=iPhone11..jpg>
+    <p>£21.99</p>
+    <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+      <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+  </div>
+  <div class="grid-item">
+<img src=11.jpg>
+<p>£20.99</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title of the document</title>
+</head>
+<body>
+  <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+</body>
+</html>
+  </div>
+  <div class="grid-item">
+    <img src=XR.jpg>
+    <p>£22.99</p>
+    <!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+      <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+   </body>
+</html>
+</div>
+  <div class="grid-item">
+    <img src=XS.jpg>
+    <p>£18.99</p>
+    <!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+      <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+   </body>
+</html>
+  </div>
+  <div class="grid-item">
+<img src=11P.jpg>
+<p>£29.99</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title of the document</title>
+</head>
+<body>
+  <button onclick="Buy It Now.href = 'Basket';">Buy It Now</button>
+</body>
+</html>
+  </div>
+
+
+
+
+
+</body>
+</html>
